@@ -2,7 +2,7 @@
 - Title: PowerFlow-DNN: Compiler-Directed Fine-Grained Power Orchestration for End-to-End Edge AI Inference
 - Authors: Paul Yi-Chia Chen, Jeongeun Kim, Wenbo Zhu, Yuanhan Li, Shunyao Huang, Chenjie Weng, and Christopher Torng
 - Contact: chenpaul@usc.edu
-
+- Paper: [PDF](https://dl.acm.org/doi/epdf/10.1145/3816440.3818667) | [IEEE Xplore / ACM Digital Library](https://dl.acm.org/doi/10.1145/3816440.3818667)
 <!-- ![image](images/powerflow-dnn.png) -->
 <div align="center">
   <img src="./images/powerflow-dnn.png" height="800">
@@ -137,3 +137,16 @@ make full             # make all, then make runtime
 - While the paper presents a more detailed formulation of the problem and overhead
   look-up tables, we simplify several aspects here to make the solver tractable
   and easier to study. 
+
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@inproceedings{chen2026powerflowdnn,
+  title={PowerFlow-DNN: Compiler-Directed Fine-Grained Power Orchestration for End-to-End Edge AI Inference},
+  author={Chen, Paul Yi-Chia and Kim, Jeongeun and Zhu, Wenbo and Li, Yuanhan and Huang, Shunyao and Weng, Chenjie and Torng, Christopher},
+  booktitle={Proceedings of the IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED)},
+  year={2026},
+  url={https://dl.acm.org/doi/10.1145/3816440.3818667}
+}
